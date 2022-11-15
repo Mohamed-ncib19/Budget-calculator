@@ -1,0 +1,107 @@
+body{
+    background: linear-gradient(2deg, rgb(244, 224, 248) 180%, rgb(36, 66, 163) 180%);
+
+}
+
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.container .title h2{
+    background-color: #d7b6f6;
+    font-size: medium ;
+    padding: 20px;
+    border-radius: 20px 20px 0 0px;
+}
+.container .display{
+    background-color: #1a2743;
+    width: 100%;
+    border-radius: 0 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    padding: 0 0 90px;
+    font-size: 3em;
+}
+.container .addINEX{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.container .addINEX input {
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(192, 196, 200);
+    width: 80%;
+    height: 59%;
+    padding: 0 10px 1px 13px;
+    margin: 3px 5px 4px;
+}
+
+.container .addINEX button{
+    border: 0;
+    border-radius: 2px;
+    background-color: #d7b6f6;
+    width: 30%;
+    height: 50%;
+    cursor:grab;
+}
+.container .addINEX button:hover{
+    background-color: #e3cbf6;
+    animation:btn 1s infinite;
+}
+
+@keyframes btn{
+    0%{transform: rotate(0deg);}
+    20%{transform: rotate(3deg);}
+    40%{transform: rotate(-6deg);}
+    60%{transform: rotate(6deg);}
+    100%{transform: rotate(0deg);}
+}
+
+.container .disp input {
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(231, 228, 228);
+    height: 50px;
+    position: absolute;
+    top: 50%;
+}
+
+.container .displayINCOMEEXPENSES{
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 4em 0 0 26em;
+}
+.cont{
+    background-color:transparent;
+    padding: 0;
+    margin: -13px 27em 3em -11em;
+    border-radius: 20px;
+    
+    
+}
+
+.StyleIN1{
+    color: #46c766;
+    z-index: 2;
+}
+.styleIN{
+    color: #b3abab;
+    z-index: 2;
+}
+.styleEX1{
+color: #fd3f3f;
+}
+.styleEX{
+    color:#b3abab ;
+}

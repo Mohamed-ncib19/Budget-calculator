@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget calculator</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="assets/js/index.js" defer></script>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Budget calculator</h2>
+        </div>
+        <div class="display">
+            <p id="demo" style="color:white;"></p>
+        </div>
+        <div class="addINEX">
+            <form>
+                <input type="number" min="0" oninput="validity.valid||(value='');" id="valueI" placeholder="Income Amount">
+                <input type="text" id="descI" placeholder="Description">
+                <button id="btnI">Add</button>
+            </form>
+            <form>
+                <input type="number" min="0" oninput="validity.valid||(value='');"  id="valueE" placeholder="Expenses Amount">
+                <input type="text" id="descE" placeholder="Description">
+                <button id="btnE">Add</button>
+            </form>
+        </div>
+    <div class="displayINCOMEEXPENSES">
+        <div id="dispIN">
+            <h3 id="dispINCOME">INCOME</h3>
+            
+        </div>
+
+        <div id="dispEX">
+            <h3 id="dispEXPENSES">EXCOME</h3>
+        </div>
+    </div>
+ </div>
+</body>
+</html>
